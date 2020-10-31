@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Registration</legend>
+        <table>
+			<tbody><tr class="heading">
+				<td><center><h2><font face="Times New Roman">Registration</font></h2></center></td>
+			</tr>
+		<tr>
+			<td>
+			<div class="left">	
+				<form>
+				<table>        
+					<tr>
+						<td>First Name</td>
+						<td>:</td>
+						<td><input type="text" name="first_name" placeholder="'John'"></td>
+                    </tr>
+                    <tr>
+						<td>Last Name</td>
+						<td>:</td>
+						<td><input type="text" name="last_name" placeholder="'Smith'"></td>
+					</tr>
+					<tr>
+						<td>Place of Birth</td>
+						<td>:</td>
+						<td><input type="text" name="place_of_birth" placeholder="'Jakarta'"></td>
+					</tr>
+
+                    <tr>
+						<td>Birth Date</td>
+						<td>:</td>
+						<td><input type="date" name="birth_date"></td>
+                    </tr>
+                    <tr>
+						<td>Gender</td>
+                        <td>:</td>
+                        <td>
+                        <input type="radio" name="Gender" value="Male" /> Male
+                        <input type="radio" name="Gender" value="Female" /> Female
+                        </td>
+					</tr>
+					<tr>
+						<td>Religion</td>
+							<td>:</td>
+							<td><select>
+							<option value="Religion">--Choose--</option>
+							<option value="Religion">Islam</option>
+                            <option value="Religion">Protestan</option>
+                            <option value="Religion">Katholik</option>
+							<option value="Religion">Hindu</option>
+							<option value="Religion">Buddha</option>
+                            <option value="Religion">Konghucu</option>
+						</select></td>
+					</tr>
+					<tr>
+                        <td>Contact</td>
+                        <td>:</td>
+						<td><input type="text" name="Contact" placeholder="(+62) xxxxxxxxxx"></td>
+					</tr>
+					<tr>
+						<td>E-mail</td>
+						<td>:</td>
+						<td><input type="E-mail" name="E-mail" placeholder="user@example.com"></td>
+					</tr>
+                        <td>Photo</td>
+                        <td>:</td>
+                        <td>
+                            <label for="Photo" id="Photo"></label>
+                            <input type="file" required >
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td>Address</td>
+                        <td>:</td>
+                        <td><textarea name="alamat" rows="4" cols="30"></textarea></td>
+                    </tr>
+				</tbody></table>
+				</form>
+        </div></td></tr>
+        <tr>
+			<td colspan="5">
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset" value="Reset">Reset</button>
+            </td>
+	    </tr>
+        </tbody></table>        
+        </fieldset>
+    </body>
+</html>
